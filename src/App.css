@@ -13,7 +13,7 @@
   }
 }
 
-.App-header {
+.App {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -25,6 +25,71 @@
 }
 
 .App-link {
+  color: #61dafb;
+}
+
+footer {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+p {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: block;
+  text-align: left;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin: 15px 0;
+  max-width: 80%;
+  padding: 0 20px;
+  text-indent: 2em;
+}
+
+footer {
+  margin-top: 30em;
+}
+
+h1 {
+  margin-top: 3em; /* Adjust this value to your liking */
+  /* other styles */
+}
+
+h4 {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: block;
+  font-size: calc(15px + 2vmin); /* Make font size larger than p */
+  color: white;
+  margin: 25px 0;
+  max-width: 80%;
+  padding: 0 20px;
+  text-align: left;
+  text-indent: 0; /* No indentation */
+  font-style: italic;
+}
+
+h3 {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: block;
+  font-size: calc(30px + 2vmin); /* Make font size larger than p */
+  color: white;
+  margin: 25px 0;
+  max-width: 80%;
+  padding: 0 20px;
+  text-align: left;
+  text-indent: 0; /* No indentation */
+}
+
+h3:hover {
+  background-color: #888888;
   color: #61dafb;
 }
 
